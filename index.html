@@ -6,12 +6,139 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Loja Virtual</title>
+  <!--FAVICONS-->
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/images/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/images/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/images/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#FFC107">
+  <meta name="msapplication-TileImage" content="./assets/images/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#FFC107">
+  <!--END FAV ICONS./assets/images/favicons-->
   <!--CSS-->
   <link rel="stylesheet" href="assets/css/style.min.css">
   <!--END CSS-->
 </head>
 
-body
+<!--HEADER-->
+<header class="container-fluid">
+  <!--SECTION-->
+  <section class="container">
+    <!--ROW-->
+    <article class="row">
+      <!--LOGO DA EMPRESA-->
+      <a href="/" class="col-md-2">
+        <img src="assets/images/logo.svg" alt="logo da empresa - Moda da mulher">
+      </a>
+      <!--END LOGO DA EMPRESA-->
+
+      <!--FORM-->
+      <form action="#" class="col-md-7">
+        <input type="text" name="name" placeholder="Procurar roupas aqui">
+
+        <!--BUTTON-->
+        <button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+            viewBox="0 0 16 16">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+          </svg>
+        </button>
+        <!--END BUTTON-->
+
+      </form>
+      <!--END FORM-->
+
+      <!--LI HEADER-->
+      <ul class="col-md-3 nav">
+        <!--ADMINISTRATIVO DO CLIENT-->
+        <li class="nav-item">
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill"
+              viewBox="0 0 16 16">
+              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+            </svg>
+            Entrar
+          </a>
+        </li>
+        <!--END ADMINISTRATIVO DO CLIENTE-->
+        <span class="notification">3</span>
+        <!--CARRINHO-->
+        <li class="nav-item">
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+            </svg>
+            Carrinho
+          </a>
+        </li>
+        <!--END CARRINHO-->
+      </ul>
+      <!--END LI HEADER-->
+
+    </article>
+    <!--END ROW-->
+  </section>
+  <!--END SECTION-->
+</header>
+<!--END HEADER-->
+
+<!--NAV MENU DO SITE-->
+<nav class="container-fluid nav-produtos">
+  <!--CONTAINER-->
+  <section class="container">
+    <!--MENU-->
+    <ul class="nav">
+      <!--LIST MODA FEMININA-->
+      <li class="nav-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>
+        Moda Feminina
+        <!--SUB MENU-->
+        <ul class="nav flex-column">
+          <li class="nav-item">Lançamentos</li>
+          <li class="nav-item">Plus Size</li>
+          <li class="nav-item">Moda Praia</li>
+          <li class="nav-item">Acessórios</li>
+          <li class="nav-item">Promoção</li>
+        </ul>
+        <!--END SUB MENU-->
+
+        <!--END LIST MODA FEMININA-->
+
+        <!--MENU CALÇADOS-->
+      </li>
+      <li class="nav-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>
+        Calçados
+      </li>
+    </ul>
+    <!--END MENU CALÇADOS-->
+
+    <!--END MENU-->
+  </section>
+  <!--END CONTAINER-->
+</nav>
+<!--END NAV MENU DO SITE-->
 
 <body>
 
