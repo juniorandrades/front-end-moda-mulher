@@ -1,4 +1,4 @@
-﻿@import"https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap";/*!
+﻿@import"https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap";*{color:#343a40}a{text-decoration:none !important}header{background-color:#ffc107;padding:25px}header section article form textarea:focus,header section article form input:focus,header section article form select:focus{outline:0}header section article form input[type=text]{width:100%;background-color:#fff;padding:10px 20px;border:none;border-radius:100px}header section article form button{position:absolute;border:none;background:none;right:25px}header section article ul li{position:relative}header section article ul li span.notification{position:absolute;bottom:18px;left:5px;width:15px;height:14px;font-size:10px;color:#fff}header section article ul li a{color:#343a40;font-size:16px;font-weight:bold}header section article ul li a:hover{color:#343a40}header section article ul li a svg{width:20px;height:20px}/*!
  * Bootstrap v4.6.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
