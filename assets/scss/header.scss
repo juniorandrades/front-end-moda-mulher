@@ -1,10 +1,15 @@
+/* HEADER */
 header {
   background-color: $primary-color;
   padding: 25px;
 
+  /* SECTION */
   section {
+
+    /* ARTICLE */
     article {
 
+      /* FORM */
       form {
 
         textarea:focus,
@@ -29,7 +34,12 @@ header {
         }
       }
 
+      /* END FORM */
+
+      /* UL */
       ul {
+
+        /* LI */
         li {
           position: relative;
 
@@ -45,6 +55,7 @@ header {
             }
           }
 
+          /* A */
           a {
             color: $secondary-color;
             font-size: 16px;
@@ -59,8 +70,20 @@ header {
               height: 20px;
             }
           }
+
+          /* END A */
         }
+
+        /* END LI */
       }
+
+      /* END UL */
     }
+
+    /* END ARTICLE */
   }
+
+  /* END SECTION */
 }
+
+/* END HEADER */
