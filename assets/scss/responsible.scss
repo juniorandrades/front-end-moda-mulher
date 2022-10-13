@@ -1,0 +1,52 @@
+@media (max-width:767px) {
+  header {
+    form {
+      margin: 20px 0;
+    }
+  }
+
+  #banners-promocionais {
+    display: none;
+  }
+
+  .banners-promocionais-staticos {
+    article {
+      margin-bottom: 20px;
+
+
+      .banners-promocionais-staticos-12x {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .produtos-container img {
+    width: 100%;
+  }
+
+}
+
+@media (max-width:991px) {
+  header {
+    ul {
+      li {
+        margin: 7px 3px;
+      }
+    }
+  }
+}
+
+@media (max-width:375px) {
+
+  .banners-promocionais-staticos {
+
+    .banners-promocionais-staticos-12x,
+    .banners-promocionais-staticos-todo-br {
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width:375px) {}

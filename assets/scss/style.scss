@@ -9,9 +9,17 @@
 @import 'nav.scss';
 @import 'banners-promocionais-staticos.scss';
 @import 'produtos.scss';
+@import 'footer.scss';
+@import 'responsible.scss';
+@import 'breadcrumbs.scss';
+@import 'produtos-compra.scss';
+
 
 //FRAMEWORK
 @import 'bootstrap.min.scss';
+
+//BOOTSTRAP COMPONENTS
+@import 'breadcrumbs.scss';
 
 //CONFIG
 @import 'config.scss';
