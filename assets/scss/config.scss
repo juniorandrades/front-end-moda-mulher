@@ -1,0 +1,21 @@
+body {
+  color: $secondary-color;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* ANIMAÇÃO DO SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 7px;
+  background-color: $primary-color;
+  border-radius: 10px;
+}
+
+/* ANIMAÇÃO DO SCROLLBAR */

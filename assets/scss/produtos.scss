@@ -1,0 +1,39 @@
+.produtos {
+
+  h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  div {
+    a {
+      margin-top: 35px;
+      margin-bottom: 45px;
+    }
+  }
+
+  .produtos-container {
+
+    .produtos-itens {
+      h5 {
+        margin-top: 10px;
+        font-size: 19px;
+        color: $secondary-color;
+
+      }
+
+      .produtos-preco {
+        font-size: 16px;
+        color: $secondary-color;
+      }
+    }
+  }
+}
+
+.produtos-stars {
+  svg {
+    color: $primary-color;
+  }
+}

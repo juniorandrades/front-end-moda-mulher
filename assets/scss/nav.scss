@@ -1,0 +1,75 @@
+/*NAV*/
+nav {
+  &.nav-produtos {
+    background-color: $secondary-color;
+    color: $white;
+  }
+
+  /*UL*/
+  ul {
+
+    /*LI*/
+    li {
+      position: relative;
+      padding: 10px;
+
+      /*SVG*/
+      svg {
+        margin-right: 10px;
+        width: 24px;
+        height: 24px;
+      }
+
+      /*END SVG*/
+
+      /*HOVER*/
+
+      &:hover {
+        background: darken($color: $secondary-color, $amount: 5);
+
+        ul.nav {
+          display: block;
+          position: absolute;
+          background-color: $secondary-color;
+          z-index: 999;
+          top: 100%;
+          left: 0px;
+          border-top: 5px solid $primary-color;
+          width: 100%;
+          text-align: start;
+
+          /*LI*/
+          li {
+            padding: 10px 25px;
+            border-bottom: 1px solid rgb(71, 71, 71);
+          }
+
+          /*LI*/
+
+          /*A*/
+          a {
+            color: $white;
+          }
+
+          /*END A*/
+        }
+      }
+
+      /*END HOVER*/
+
+      ul.nav {
+        display: none;
+      }
+
+
+    }
+
+    /*END LI*/
+  }
+
+  /*END UL*/
+
+
+}
+
+/*END NAV*/

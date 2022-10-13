@@ -1,5 +1,25 @@
 //FONTS
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
 
+//VARIAVEIS
+@import 'variables.scss';
+
+//COMPONENTS
+@import 'header.scss';
+@import 'nav.scss';
+@import 'banners-promocionais-staticos.scss';
+@import 'produtos.scss';
+@import 'footer.scss';
+@import 'responsible.scss';
+@import 'breadcrumbs.scss';
+@import 'produtos-compra.scss';
+
+
 //FRAMEWORK
 @import 'bootstrap.min.scss';
+
+//BOOTSTRAP COMPONENTS
+@import 'breadcrumbs.scss';
+
+//CONFIG
+@import 'config.scss';
